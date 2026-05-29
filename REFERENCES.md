@@ -16,11 +16,11 @@ Campbell, J. Y., Lo, A. W., & MacKinlay, A. C. (1997). *The econometrics of fina
 Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates.  
 > Digunakan sebagai referensi estimasi statistical power pada analisis bootstrap (Cell 25) dan limitasi 6.9, khususnya untuk two-sample t-test dengan jumlah trade kecil.
 
-Elder, A. (2002). *Come into my trading room*. Wiley.  
-> Digunakan sebagai justifikasi "The 2% Rule" (risk per trade = 2%) dalam RISK_PER_TRADES grid (hal. 145). Elder mendefinisikan 2% sebagai keseimbangan optimal antara pertumbuhan modal dan proteksi.
-
 Efron, B., & Tibshirani, R. J. (1993). *An introduction to the bootstrap*. Chapman & Hall/CRC.  
 > Disebut sebagai referensi seminal metodologi bootstrap yang digunakan pada Cell 25 (Bootstrap Simulation) untuk menghitung confidence interval metrik utama.
+
+Elder, A. (2002). *Come into my trading room*. Wiley.  
+> Digunakan sebagai justifikasi "The 2% Rule" (risk per trade = 2%) dalam RISK_PER_TRADES grid (hal. 145). Elder mendefinisikan 2% sebagai keseimbangan optimal antara pertumbuhan modal dan proteksi.
 
 Kaufman, P. J. (2013). *Trading systems and methods* (5th ed.). Wiley.  
 > Digunakan sebagai referensi threshold klasifikasi regime pasar (±3% dari MA50, hal. 147), justifikasi range parameter ATR period 3–14 (hal. 119–122), justifikasi pemilihan timeframe harian (hal. 62–63), dan justifikasi risk per trade moderat 3% untuk trend-following (hal. 342).
@@ -45,6 +45,9 @@ Van Tharp, J. (1999). *Trade your way to financial freedom*. McGraw-Hill.
 
 Vince, R. (1990). *Portfolio management formulas*. Wiley.  
 > Referensi utama untuk Fixed Fractional Position Sizing, justifikasi range RISK_PER_TRADES, pembuktian matematis Kelly-optimal dalam jangka panjang, dan prinsip "scale with volatility" dalam position sizing ATR-based.
+
+Wilder, J. W. (1978). *New concepts in technical trading systems*. Trend Research.  
+> Digunakan sebagai referensi foundational untuk Average True Range (ATR) dan metode Wilder Smoothing (USE_TRUE_ATR=True) yang diterapkan dalam kalkulasi ATR SuperTrend. Wilder Smoothing menghasilkan nilai ATR yang lebih halus dibandingkan SMA-ATR standar.
 
 ---
 
@@ -110,9 +113,6 @@ Bybit Exchange. (2024). *Perpetual contract specifications*. https://www.bybit.c
 
 CoinGecko. (2024). *Derivatives exchange ranking*. https://www.coingecko.com/en/exchanges/derivatives  
 > Digunakan sebagai referensi peringkat Bybit sebagai exchange derivatif kripto terbesar ke-2 di dunia per 2024, mendukung asumsi slippage 0.03% yang konservatif dan realistis.
-
-TradingView. (2023). *Pine Script v6 strategy reference: strategy.entry() auto-reversal*. https://www.tradingview.com/pine-script-reference/v6/  
-> Digunakan sebagai referensi logika PineScript yang direplikasi dalam kode Python: `strategy.entry("Long", strategy.long)` otomatis menutup posisi berlawanan sebelum membuka posisi baru.
 
 ---
 
