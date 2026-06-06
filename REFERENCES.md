@@ -14,10 +14,10 @@ Campbell, J. Y., Lo, A. W., & MacKinlay, A. C. (1997). *The econometrics of fina
 > Digunakan sebagai referensi standar significance level α = 0.05 dalam riset keuangan empiris (hal. 17), dan sebagai acuan formulasi hipotesis statistik formal pada Cell 3.
 
 Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates.  
-> Digunakan sebagai referensi estimasi statistical power pada analisis bootstrap (Cell 25) dan limitasi 6.9, khususnya untuk two-sample t-test dengan jumlah trade kecil.
+> Digunakan sebagai referensi estimasi statistical power pada analisis bootstrap (Cell 26) dan limitasi 6.9, khususnya untuk two-sample t-test dengan jumlah trade kecil.
 
 Efron, B., & Tibshirani, R. J. (1993). *An introduction to the bootstrap*. Chapman & Hall/CRC.  
-> Disebut sebagai referensi seminal metodologi bootstrap yang digunakan pada Cell 25 (Bootstrap Simulation) untuk menghitung confidence interval metrik utama.
+> Disebut sebagai referensi seminal metodologi bootstrap yang digunakan pada Cell 26 (Bootstrap Simulation) untuk menghitung confidence interval metrik utama.
 
 Elder, A. (2002). *Come into my trading room*. Wiley.  
 > Digunakan sebagai justifikasi "The 2% Rule" (risk per trade = 2%) dalam RISK_PER_TRADES grid (hal. 145). Elder mendefinisikan 2% sebagai keseimbangan optimal antara pertumbuhan modal dan proteksi.
